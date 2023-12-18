@@ -8,7 +8,7 @@ double myCeil(double num) {
 
 double myFloor(double num) {
     int intPart = (int)num; // Get the integer part of the number
-    double result = (num < intPart) ? intPart - 1 : num; // If there is a fractional part, round down
+    double result = (num < intPart) ? intPart - 1 : intPart; // If there is a fractional part, round down
     return result;
 }
 

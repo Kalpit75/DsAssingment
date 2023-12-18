@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 
 // Function to perform set union
 void setUnion(int set1[], int size1, int set2[], int size2) {
@@ -110,6 +111,7 @@ int main() {
     setIntersection(set1, size1, set2, size2);
     setDifference(set1, size1, set2, size2);
     cartesianProduct(set1, size1, set2, size2);
+//    getch();
 
     return 0;
 }
